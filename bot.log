@@ -1,0 +1,17 @@
+2024-09-11 12:08:53,285 - __main__ - ERROR - Не удалось получить токен из переменной окружения
+2024-09-11 12:09:22,367 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-09-11 12:09:22,368 - discord.client - INFO - logging in using static token
+2024-09-11 12:09:23,177 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 5f5650db831b2e8afb41ff625dec23ec).
+2024-09-11 12:09:25,187 - __main__ - INFO - Logged in as Void Sentinel
+2024-09-11 12:09:31,967 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-09-11 12:09:31,968 - discord.client - INFO - logging in using static token
+2024-09-11 12:09:32,758 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 7e6321efa79e0f72ba7c607c40b0fbb0).
+2024-09-11 12:09:34,784 - __main__ - INFO - Logged in as Void Sentinel
+2024-09-11 12:45:22,180 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-09-11 12:45:22,182 - discord.client - INFO - logging in using static token
+2024-09-11 12:45:23,570 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 89491ca9bc86c96d066af28162b299ba).
+2024-09-11 12:45:25,580 - __main__ - INFO - Logged in as Void Sentinel
+2024-09-11 12:46:38,102 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-09-11 12:46:38,103 - discord.client - INFO - logging in using static token
+2024-09-11 12:46:38,989 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d4f18a68d960fa4e17fd2fa2836fdfe3).
+2024-09-11 12:46:41,008 - __main__ - INFO - Logged in as Void Sentinel
