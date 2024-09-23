@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3  # Обновлено на v3
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v4  # Обновлено на v4
+        uses: actions/setup-python@v4
         with:
-          python-version: '3.x'  # Укажи нужную версию Python
+          python-version: '3.x'
 
       - name: Install dependencies
         run: |
