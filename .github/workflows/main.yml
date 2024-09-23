@@ -24,5 +24,6 @@ jobs:
           pip install -r requirements.txt
 
       - name: Deploy to Railway
-        run: |python main.py
-          # Здесь добавь команду для развертывания на Railway
+        run: |
+          curl -X POST https://railway.app/api/v1/projects/a8040121-069d-4ad8-8c8d-72bd2221d00f/deploy \
+          -H "Authorization: Bearer ${{ secrets.RAILWAY_TOKEN }}"
