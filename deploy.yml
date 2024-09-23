@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v3  # Обновлено на v3
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v4  # Обновлено на v4
         with:
           python-version: '3.x'  # Укажи нужную версию Python
 
@@ -23,7 +23,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-- name: Deploy to Railway
-  run: |
-    curl -v -X POST https://railway.app/api/v1/projects/a8040121-069d-4ad8-8c8d-72bd2221d00f/deploy \
-    -H "Authorization: Bearer ${{ secrets.RAILWAY_TOKEN }}"
+      - name: Deploy to Railway
+        run: |
+          curl -v -X POST https://railway.app/api/v1/projects/a8040121-069d-4ad8-8c8d-72bd2221d00f/deploy \
+          -H "Authorization: Bearer ${{ secrets.RAILWAY_TOKEN }}"
